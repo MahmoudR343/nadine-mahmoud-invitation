@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nadine &amp; Mahmoud</title>
+<meta name="description" content="You are invited to the wedding of Nadine &amp; Mahmoud.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#efe6dc">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Nadine &amp; Mahmoud">
+<meta property="og:description" content="You are invited to the wedding of Nadine &amp; Mahmoud · 17 July 2027 · Istanbul">
+<meta property="og:url" content="https://mahmoudr343.github.io/nadine-mahmoud-invitation/">
+<meta property="og:image" content="https://mahmoudr343.github.io/nadine-mahmoud-invitation/assets/preview.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preload" href="assets/door-l.webp" as="image">
+<link rel="preload" href="assets/door-r.webp" as="image">
+<link rel="preload" href="assets/ribbon-l.webp" as="image">
+<link rel="preload" href="assets/ribbon-r.webp" as="image">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="is-gate">
+
+<div class="controls" id="controls" hidden>
+  <button class="ctl ctl--lang" id="langBtn" type="button">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.5 3.9 5.5 3.9 9s-1.3 6.5-3.9 9c-2.6-2.5-3.9-5.5-3.9-9S9.4 5.5 12 3z"/></svg>
+    <span id="langName">English</span>
+  </button>
+  <button class="ctl ctl--music" id="musicBtn" type="button" aria-pressed="false">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18V5l11-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="17" cy="16" r="3"/></svg>
+  </button>
+</div>
+
+<nav class="dots" id="dots" hidden></nav>
+
+<main id="book">
+
+  <!-- Pages 1 + 2: the ribbon-tied gate opens onto the Basmala page -->
+  <section class="page page--first" id="s1" data-n="1">
+    <div class="card" id="card1">
+      <img class="card__img" src="assets/p2.webp" alt="" width="1122" height="1402">
+      <div class="ov">
+        <p class="o basmala" id="basmala" style="top:40.2%">بِسْمِ ٱللهِ ٱلرَّحْمَٰنِ ٱلرَّحِيْمِ</p>
+        <div class="o mono" data-l="en" style="top:51.6%"><span>N</span><i>&amp;</i><span>M</span></div>
+        <div class="o mono mono--ar" data-l="ar" style="top:51.6%"><span>ن</span><i>و</i><span>م</span></div>
+        <div class="o names" data-l="en" style="top:68%"><span>Nadine</span><i>&amp;</i><span>Mahmoud</span></div>
+        <div class="o names names--ar" data-l="ar" style="top:68%"><span>نادين</span><i>و</i><span>محمود</span></div>
+      </div>
+      <div class="gate" id="gate" aria-hidden="true">
+        <div class="door door--l"><img src="assets/door-l.webp" alt="" width="561" height="1402"><span class="door__shade"></span><span class="door__back"></span></div>
+        <div class="door door--r"><img src="assets/door-r.webp" alt="" width="561" height="1402"><span class="door__shade"></span><span class="door__back"></span></div>
+        <img class="rib rib--l" src="assets/ribbon-l.webp" alt="" style="left:0.802%;top:39.301%;width:49.198%">
+        <img class="rib rib--r" src="assets/ribbon-r.webp" alt="" style="left:50%;top:39.515%;width:49.109%">
+        <img class="knot" src="assets/knot.webp" alt="" style="left:45.544%;top:45.506%;width:9.358%">
+      </div>
+    </div>
+    <div class="choose" id="choose">
+      <button type="button" class="pill" data-choose="en" lang="en">English</button>
+      <button type="button" class="pill pill--ar" data-choose="ar" lang="ar" dir="rtl">العربية</button>
+    </div>
+  </section>
+
+  <!-- Page 3: the families -->
+  <section class="page" id="s2" data-n="2">
+    <div class="card">
+      <img class="card__img" src="assets/p3.webp" alt="" width="1122" height="1402" loading="lazy">
+      <div class="ov">
+        <div class="o fam side-a" style="top:44.5%"><small data-i="the"></small><b data-i="brideFam"></b><small data-i="family"></small></div>
+        <div class="o fam side-b" style="top:44.5%"><small data-i="the"></small><b data-i="groomFam"></b><small data-i="family"></small></div>
+        <div class="o child side-a" style="top:55.5%" data-i="bride"></div>
+        <div class="o child side-b" style="top:55.5%" data-i="groom"></div>
+        <p class="o invite" style="top:67%;width:62%" data-i="invite"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Page 4: date and countdown -->
+  <section class="page" id="s3" data-n="3">
+    <div class="card">
+      <img class="card__img" data-src-en="assets/p4.webp" data-src-ar="assets/p4-ar.webp" src="assets/p4.webp" alt="" width="1122" height="1402" loading="lazy">
+      <div class="ov">
+        <p class="o ar-sub" data-l="ar" style="top:31.6%">العدّ التنازلي</p>
+        <p class="o ar-title" data-l="ar" style="top:40.6%">ليوم زفافنا</p>
+        <p class="o weekday" style="top:47.2%" id="weekday"></p>
+        <p class="o date" style="top:51.2%" id="dateLine"></p>
+        <span class="o cd" style="top:66%" data-u="0">--</span>
+        <span class="o cd" style="top:66%" data-u="1">--</span>
+        <span class="o cd" style="top:66%" data-u="2">--</span>
+        <span class="o cd" style="top:66%" data-u="3">--</span>
+        <span class="o cdl" data-l="ar" style="left:78.5%;top:70.3%">أيام</span>
+        <span class="o cdl" data-l="ar" style="left:59.4%;top:70.3%">ساعات</span>
+        <span class="o cdl" data-l="ar" style="left:40.3%;top:70.3%">دقائق</span>
+        <span class="o cdl" data-l="ar" style="left:21.1%;top:70.3%">ثوانٍ</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Page 5: the venue -->
+  <section class="page" id="s4" data-n="4">
+    <div class="card">
+      <img class="card__img" data-src-en="assets/p5.webp" data-src-ar="assets/p5-ar.webp" src="assets/p5.webp" alt="" width="1122" height="1402" loading="lazy">
+      <div class="ov">
+        <p class="o ar-title" data-l="ar" style="top:37.6%">مكان الحفل</p>
+        <p class="o venue" style="top:53.4%;width:76%" id="venueName"></p>
+        <p class="o city" style="top:58.4%" id="venueCity"></p>
+        <a class="o pin" id="pinLink" style="left:50%;top:67%" target="_blank" rel="noopener"><span class="sr" data-i="maps"></span></a>
+        <a class="o maps pill" id="mapsBtn" style="top:73.6%" target="_blank" rel="noopener" data-i="maps"></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Page 6: the evening -->
+  <section class="page" id="s5" data-n="5">
+    <div class="card">
+      <img class="card__img" data-src-en="assets/p6.webp" data-src-ar="assets/p6-ar.webp" src="assets/p6.webp" alt="" width="1122" height="1402" loading="lazy">
+      <div class="ov" data-l="ar">
+        <p class="o ar-title" style="top:13.6%">برنامج الأمسية</p>
+        <div class="tl" style="top:23.2%"><b>استقبال الضيوف</b><span>يُعلَن الموعد لاحقاً</span></div>
+        <div class="tl" style="top:35.1%"><b>دخول العروس</b><span>يُعلَن الموعد لاحقاً</span></div>
+        <div class="tl" style="top:46.4%"><b>العشاء</b><span>يُعلَن الموعد لاحقاً</span></div>
+        <div class="tl" style="top:57.2%"><b>دخول الرجال</b><span>يُعلَن الموعد لاحقاً</span></div>
+        <div class="tl" style="top:68.6%"><b>السهرة</b><span>يُعلَن الموعد لاحقاً</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Page 7: RSVP (a design preview – nothing is sent or saved) -->
+  <section class="page" id="s6" data-n="6">
+    <div class="card">
+      <img class="card__img" data-src-en="assets/p7.webp" data-src-ar="assets/p7-ar.webp" src="assets/p7.webp" alt="" width="1122" height="1402" loading="lazy">
+      <div class="ov">
+        <p class="o ar-title" data-l="ar" style="top:31%">تأكيد الحضور</p>
+        <p class="o ar-sub" data-l="ar" style="top:43.2%">يُرجى الرد قبل</p>
+        <p class="o ar-dmy" data-l="ar" style="top:46.9%">يوم / شهر / سنة</p>
+        <label class="o ar-label" data-l="ar" for="rsvpName" style="left:74.4%;top:51%">الاسم:</label>
+        <span class="o ar-line" data-l="ar" style="left:17.6%;top:52.1%;width:55.6%"></span>
+        <label class="o ar-label" data-l="ar" for="rsvpGuests" style="left:52.2%;top:56.2%">عدد الضيوف:</label>
+        <span class="o ar-box" data-l="ar" style="left:37%;top:54.2%;width:13.8%;height:4.1%"></span>
+
+        <input class="o field field--name" id="rsvpName" type="text" autocomplete="name" maxlength="80" aria-label="Name(s)">
+        <input class="o field field--guests" id="rsvpGuests" type="text" inputmode="numeric" maxlength="2" aria-label="Number of guests">
+
+        <button type="button" class="o tile" id="tileL" style="left:29.4%;top:60.3%;width:17.4%;height:14.2%" aria-pressed="false"><span class="sr"></span></button>
+        <button type="button" class="o tile" id="tileR" style="left:53.3%;top:60.3%;width:17.6%;height:14.2%" aria-pressed="false"><span class="sr"></span></button>
+        <svg class="o check" id="checkL" style="left:38.1%;top:63.6%" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.2 4.2L19 7"/></svg>
+        <svg class="o check" id="checkR" style="left:61.9%;top:63.6%" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.2 4.2L19 7"/></svg>
+        <p class="o tile-t" data-l="ar" style="left:38.1%;top:67.7%">نعتذر<br>عن الحضور</p>
+        <p class="o tile-t" data-l="ar" style="left:62.1%;top:67.7%">نلبّي الدعوة<br>بكل سرور</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<audio id="music" loop preload="none"></audio>
+<script src="config.js"></script>
+<script src="assets/main.js"></script>
+</body>
+</html>
